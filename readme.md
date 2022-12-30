@@ -46,7 +46,7 @@ make && gcc givens.a -lm && ./a.out
 
 after making the correct changes in the main according to what you want to test.
 
-All tests are provided in tests_main.md
+All tests are provided in **appendix/tests_main.md**
 
 You can also run:
 
@@ -57,14 +57,19 @@ make fclean # delete everything
 ```
 ## Gnuplot for algorithm's analysis
 
-Algorithms analyses used are in algo_analyse.md. For each analysis we used gnuplot to create graphes.
+Algorithms analyses used are in **appendix/algo_analyse.md**. For each analysis we used gnuplot to create graphes.
 
 Use the command below for Given's and Hessenberg CPU time:
 ```sh
-gnuplot -p < commandes.txt
+gnuplot -p < appendix/given_hessenberg.txt
 ```
 
 Use the command below to show Generating Matrices Algorithm's CPU time:
 ```sh
-gnuplot -p < commandes2.txt
+gnuplot -p < appendix/gen_mat.txt
+```
+
+Use the command below to show Matrix Eigenvalues Calculating Algorithm's CPU time:
+```sh
+gnuplot -p < appendix/check_eigen.txt
 ```

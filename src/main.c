@@ -14,6 +14,7 @@
 int main(void) {
 
 /* Test for Given's algorithm */
+
   double	**A;
   double	**Q;
   double	**R;

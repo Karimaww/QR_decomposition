@@ -1,0 +1,7 @@
+set ylabel "Time"
+set xlabel "Size of matrix"
+set title "Graph of the time taken by the algorithm for checking eigenvalues of different matrix sizes with step of 5"
+plot "appendix/check_eigen_times.txt" using 1:2 title 'Calculating matrix eigenvalues algorithm' with lines
+set term postscript portrait
+set output "Check_Eigen.ps"
+set size 0.7, 0.7

@@ -1,0 +1,7 @@
+set ylabel "Time"
+set xlabel "Size of matrix"
+set title "Graph of the time taken by the algorithm for different matrix sizes with step of 5"
+plot "appendix/generate_mat_times.txt" using 1:2 title 'Matrix generating algorithm' with lines
+set term postscript portrait
+set output "Matrix_Gen.ps"
+set size 0.7, 0.7
